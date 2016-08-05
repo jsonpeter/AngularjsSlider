@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head lang="en">
+    <meta>
+    <title>angularjs</title>
+</head>
+<body>
+<style>
+    *{ margin: 0;padding: 0; list-style-type: none; overflow: hidden;}
+    .sliderBox{ width: 800px; height: 279px; margin: 0 auto;position: relative;}
+    .sliderBox .btn{ cursor: pointer; position: absolute; top:50%;margin-top: -25px; height: 52px; width: 52px; background: url("btn.png") top center; z-index: 5;}
+    .sliderBox .btn.left{left:5%;}
+    .sliderBox .btn.right{right:5%; background-position: 0 -53px;}
+</style>
+
+    <div class="sliderBox" ng-controller="firstCtrl">
+        <slider timer="2" data="data" btn-left="#btnleft" btn-right=".btnright" animate-type="ease" animate-time="1.0">
+        </slider>
+        <div class="btn left" id="btnleft"></div>
+        <div class="btn right btnright"></div>
+    </div>
+
+<script src="http://apps.bdimg.com/libs/angular.js/1.4.6/angular.min.js"></script>
+<script src="slider.js"></script>
+</body>
+</html>
