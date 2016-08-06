@@ -3,7 +3,7 @@
  */
 (function(angular){
     'use strict';
-var myModule = angular.module('myApp',[]);
+var myModule = angular.module('silder',[]);
 myModule.directive('slider', function ($interval) {
     return {
         restrict: 'E',
