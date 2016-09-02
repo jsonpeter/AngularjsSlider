@@ -4,6 +4,11 @@
 
 [![](https://camo.githubusercontent.com/b53d32c2c22bbb8d248b357475da75aa6f5e759a/687474703a2f2f73616e64626f782e72756e6a732e636e2f75706c6f6164732f72732f32392f6777677a7532627a2f58472e6a7067)](http://sandbox.runjs.cn/show/qzpjkit5)
 
+npm方式安装
+-------------
+```
+npm install  angularjsSlider
+```
 使用方法
 -------------
  <i class="icon-pencil"></i>第一步（页面插入slider标签）
