@@ -1,0 +1,15 @@
+{
+  "name": "angularjsSlider",
+  "version": "1.0.0",
+  "description": "image slider for angularjs",
+  "main": "slider.js",
+  "scripts": {
+    "start": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jsonpeter/AngularjsSlider.git"
+  },
+  "author": "jsonpeter",
+  "license": "ISC"
+}
