@@ -5,6 +5,6 @@
     'use strict';
     var myModule = angular.module('myApp',['silder']);
     myModule.controller('firstCtrl', function($scope) {
-        $scope.data = [{img: "1.jpg",link:'#'},{img: "2.jpg",link:'#'},{img: "3.jpg",link:'#'}];
+        $scope.data = [{img: "img/1.jpg",link:'#'},{img: "img/2.jpg",link:'#'},{img: "img/3.jpg",link:'#'}];
     });
 })(window.angular)

@@ -8,7 +8,7 @@ myModule.directive('slider', function ($interval) {
     return {
         restrict: 'E',
         template: '<ul style="{{Sliders.boxCss}} margin-left:{{move}}px;">' +
-        '<li style="{{Sliders.childCss}}" ng-repeat="item in Sliders.data"><a href="{{item.link}}"><img src="{{item.img}}"/></a></li></ul>',
+        '<li style="{{Sliders.childCss}}" ng-repeat="item in Sliders.data"><a href="{{item.link}}"><img ng-src="{{item.img}}"/></a></li></ul>',
         transclude: true,
         scope: true,
         controller: function ($scope, $element, $attrs) {
@@ -59,7 +59,4 @@ myModule.directive('slider', function ($interval) {
         }
     }
 })
-myModule.controller('firstCtrl', function($scope) {
-    $scope.data = [{img: "1.jpg",link:'#'},{img: "2.jpg",link:'#'},{img: "3.jpg",link:'#'}];
-});
 })(window.angular);
