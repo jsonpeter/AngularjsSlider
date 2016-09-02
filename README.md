@@ -48,5 +48,6 @@ npm install  angularjsSlider
         $scope.data = [{img: "../img/1.jpg",link:"#"}];
     });
 ```
+
 [演示地址](http://sandbox.runjs.cn/show/qzpjkit5)
 
