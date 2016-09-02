@@ -41,3 +41,7 @@
         $scope.data = [{img: "../img/1.jpg",link:"#"}];
     });
 ```
+
+$$
+\Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,.
+$$
