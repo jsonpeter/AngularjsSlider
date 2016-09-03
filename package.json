@@ -1,8 +1,8 @@
 {
   "name": "angularjsSlider",
-  "version": "1.0.0",
-  "description": "image slider for angularjs",
-  "main": "slider.js",
+  "version": "1.2.0",
+  "description": "image slider for angularjs and webpack",
+  "main": "index.js",
   "scripts": {
     "start": "echo \"Error: no test specified\" && exit 1"
   },
