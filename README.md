@@ -11,11 +11,10 @@ npm install  angularjsSlider
 ```
 使用方法
 -------------
- <i class="icon-pencil"></i>第一步（页面插入slider标签）
+ <i class="icon-pencil"></i>第一步（引入）
 ```
    require('angularjsSlider')(moduleName);//引入
 
-   <slider></slider>//插入html标签
 ```
 ----------
  <i class="icon-pencil"></i>第二步（参数配置）
@@ -30,9 +29,9 @@ npm install  angularjsSlider
 |animate-time | `String`| `切换动画时间animate-time="1.0"秒`|
 
 
- <i class="icon-pencil"></i>第三步（引入指令）
+ <i class="icon-pencil"></i>第三步（插入标签）
 ```
-    angular.module('myApp',['silder'])
+   <slider></slider>//插入html标签
 ```
 ----------
 
@@ -45,7 +44,7 @@ npm install  angularjsSlider
     </div>
 ```
 ```
- var myModule = angular.module('myApp',['silder']);
+ var myModule = angular.module('myApp',[]);
     myModule.controller('firstCtrl', function($scope) {
         $scope.data = [{img: "../img/1.jpg",link:"#"}];
     });
