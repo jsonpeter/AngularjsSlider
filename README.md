@@ -13,10 +13,9 @@ npm install  angularjsSlider
 -------------
  <i class="icon-pencil"></i>第一步（页面插入slider标签）
 ```
-//引入
-require('angularjsSlider')(moduleName);
-//插入html标签
-   <slider></slider>
+   require('angularjsSlider')(moduleName);//引入
+
+   <slider></slider>//插入html标签
 ```
 ----------
  <i class="icon-pencil"></i>第二步（参数配置）
